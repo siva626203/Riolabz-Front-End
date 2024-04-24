@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-  import "react-toastify/dist/ReactToastify.css";
+import "react-toastify/dist/ReactToastify.css";
 import { Route,Routes } from 'react-router-dom';
 import Login from './pages/login'
 import Home from './pages/home';
