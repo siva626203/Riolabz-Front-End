@@ -23,6 +23,7 @@ function AddProduct() {
     };
   return (
     <div className="space-y-16">
+      <ToastContainer/>
       <h1 className="text-center text-4xl">Add Product</h1>
       <div className="flex justify-center">
         <form className="w-full max-w-sm" onSubmit={Submit}>
