@@ -8,7 +8,7 @@ function Navbar() {
   useEffect(()=>{
     setToken(localStorage.getItem('token'))
     setUser(JSON.parse(localStorage.getItem("data")))
-  })
+  },[])
   return (
     <div className="flex bg-red-400 p-3 items-center w-full">
       <h1>
