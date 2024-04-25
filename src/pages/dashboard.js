@@ -9,7 +9,7 @@ function Dashboard() {
     const [form,setForm]=useState({email:String,phone:Number,address:String})
     useEffect(()=>{
         if(localStorage.getItem('token')===null){
-            return navigate('/login')
+             navigate('/login')
         }
         setUser(JSON.parse(localStorage.getItem('data')))
         
